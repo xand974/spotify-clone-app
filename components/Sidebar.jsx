@@ -11,7 +11,7 @@ export default function Sidebar() {
           <Link key={item.id} href={item.link}>
             <a className="mb-3 group ">
               <DynamicIcon iconName={item.icon} />
-              <span className="text-gray-400 group-hover:text-blue-300">
+              <span className="text-gray-500 group-hover:text-blue-300">
                 {item.name}
               </span>
               {item.id % 3 === 0 && (
@@ -28,7 +28,7 @@ export default function Sidebar() {
           {playlists.map((playlist) => (
             <Link key={playlist.id} href={playlist.link}>
               <a className="mb-3 group ">
-                <span className="text-gray-400 group-hover:text-blue-300">
+                <span className="text-gray-500 group-hover:text-blue-300">
                   {playlist.title}
                 </span>
               </a>

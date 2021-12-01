@@ -1,0 +1,14 @@
+.top {
+  flex: 2;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(1, 1, 1, 1) 23%,
+    rgba(64, 36, 126, 1) 48%,
+    rgba(101, 64, 184, 1) 76%,
+    rgba(134, 93, 227, 1) 100%
+  );
+  display: flex;
+  padding: 0 20px;
+}
